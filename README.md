@@ -8,7 +8,15 @@ this a simple app , Suitable for beginners to learn!
 
 1、clone to your computer
 2、cd react-native-simpleApp-master
-3、react-native run-ios/react-native run-android
+3、npm install
+4、edit appDelegate.m
+/*
+change : 
+  jsCodeLocation = [NSURL URLWithString:@"http://192.168.0.204:8081/index.ios.bundle?platform=ios&dev=true"];
+to:
+  jsCodeLocation = [NSURL URLWithString:@"http://localhost/index.ios.bundle?platform=ios&dev=true"];
+*/
+5、react-native run-ios/react-native run-android
 
 
 
