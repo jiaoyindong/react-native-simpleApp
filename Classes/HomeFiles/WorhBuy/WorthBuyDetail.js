@@ -90,7 +90,7 @@ export default class SugerFansDetail extends Component {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-
+        backgroundColor:'white',
     },
     tag:{
         marginLeft:10,

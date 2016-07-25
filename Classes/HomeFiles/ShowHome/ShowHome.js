@@ -135,6 +135,7 @@ class ShowHomes extends Component {
                     title='晒家'// 标题
                     barTintColor="white"// 导航栏颜色
                     titleTextColor="black"// 标题颜色
+                    backIconHidden = {true}
                     // barStyle= {styles.navbar}
                 />
                 <ListView

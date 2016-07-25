@@ -133,6 +133,7 @@ class WorthBuys extends Component {
                     title='值得买'// 标题
                     barTintColor="white"// 导航栏颜色
                     titleTextColor="black"// 标题颜色
+                    backIconHidden = {true}
                 />
                 <ListView
                     dataSource={this.state.dataSource}
